@@ -2,7 +2,7 @@
 
 
 -------------------------
-eclass Project
+Hotel Management Project
 Creator: Stamatis Strongylis
 
 Written in:
