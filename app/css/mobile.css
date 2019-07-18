@@ -1,0 +1,150 @@
+@media (max-width: 991px) {
+  
+ html { overflow-x: hidden; -moz-overflow-x: hidden; -webkit-overflow-x: hidden; -ms-overflow-x: hidden; -o-overflow-x: hidden;} 
+
+.container{
+ 
+ padding: 0 10px;
+}
+
+ header{
+    
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: -100%;
+	 width: 100%;
+  background: transparent;
+ }
+ 
+ nav{
+  
+  background-color: #5d6d7e;
+ }
+ 
+ div.mobile-menu-btn{
+    
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+ 
+ ul.menu{
+    
+    display: none;
+ }
+ 
+ ul.mobile-menu{
+    
+    display: block;
+    
+ }
+ 
+ ul.mobile-menu li{
+  
+  margin-left: -15px;
+ }
+ 
+ ul.mobile-menu li > a{
+  
+  color: #FFFFFF;
+ }
+ 
+ ul.mobile-menu li:hover, ul.mobile-menu li > a:hover{
+
+   background-color: #7f8c8d;
+   color: #FFFFFF; 
+}
+
+ul.mobile-menu li:focus, ul.mobile-menu li > a:focus{
+
+	  background-color: #7f8c8d;
+   color: #FFFFFF; 
+}
+
+a#signout{
+  
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #FFFFFF;
+}
+ 
+div.option{
+  
+  display: block;
+  width: 100%;
+  margin: 30px 0;
+  padding: 20px;
+}
+
+div.option.first{
+  
+  margin-top: 10px;
+
+}
+
+div.logo-mobile{
+  
+  position: relative;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+div.logo-mobile > img{
+  
+  display: none;
+}
+
+div.promo-mobile{
+ 
+position: relative;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  float: none;
+}
+
+a.right{
+  
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+div#aler{
+ 
+ width: 100%;
+ position: absolute;
+ top: 50px;
+ left: 0;
+ text-align: center;
+}
+
+div#alerb{
+ 
+ width: 100%;
+ position: absolute;
+ top: 85%;
+ left: 0;
+ text-align: center;
+}
+
+div.footer{
+
+position: relative;
+top: 0px;
+left: 0;
+}
+
+
+}

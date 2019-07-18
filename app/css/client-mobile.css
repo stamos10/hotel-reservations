@@ -1,0 +1,48 @@
+@media (max-width: 991px) {
+  
+ html { overflow-x: hidden; -moz-overflow-x: hidden; -webkit-overflow-x: hidden; -ms-overflow-x: hidden; -o-overflow-x: hidden;} 
+
+div.main-btn{
+  
+  display: block;
+  width: 100%;
+}
+
+div.container-book{
+    
+width: 94%;
+height: auto;
+position: absolute;
+top: 30%;
+left: 0;
+margin: 0 2%;
+padding: 30px 5px;
+}
+
+div.container-rooms{
+
+position: absolute;
+top: 30%;
+width: 100%;
+height: auto;
+
+}
+
+div.logo{
+ 
+ width: 100%;
+ position: absolute;
+ top: 3%;
+ left: 0;
+}
+
+
+div.footer{
+
+position: relative;
+top: 0px;
+left: 0;
+}
+
+
+}
